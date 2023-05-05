@@ -2,10 +2,7 @@ if SERVER then AddCSLuaFile() end
 
 ENT.Type = "anim"
 function ENT:NW()
-	for k=1, 32 do
-		self:SetNW2String("Baum", "Haus")
-	end
-
+	self:SetNW2String("Baum", "Haus")
 	self:SetNW2Int("Hi", 1)
 end
 
